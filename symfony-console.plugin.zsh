@@ -2,9 +2,9 @@ _symfony_console_all_commands() {
     local command
 
     if type "$words[1]" &> /dev/null; then
-        command=$words
+        command=$words[1]
     elif [ -f "./$words[1]" ]; then
-        command=('php' $words)
+        command=('php' $words[1])
     else
         return
     fi
