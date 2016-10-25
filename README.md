@@ -22,7 +22,7 @@ export SYMFONY_CONSOLE_TOOLS="composer valet artisan"
 
 ### Local vs Global
 
-You cas use this completion plugin for local as well as global `symfony/console` tools. The plugin will first check if there is a globally available command that matches one of the tools specified in the _SYMFONY_CONSOLE_TOOLS_ list. If there is one, the plugin will use it (ex. composer). Otherwise, it will try to look into `pwd` and figure out if there is a file with such name (ex. artisan).
+You cas use this completion plugin for local as well as global `symfony/console` tools. It will first check if there is a file in `pwd` that matches one of tools specified in the _SYMFONY_CONSOLE_TOOLS_ list. If there is one, the plugin will use it (ex. artisan). Otherwise, it will try to find a globally available command (ex. composer).
 
 ---
 
