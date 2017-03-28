@@ -4,13 +4,13 @@
 
 1. Clone the repository into `~/.oh-my-zsh/plugins/symfony-console` directory
 
-```
+```zsh
 git clone https://github.com/jerguslejko/zsh-symfony-completion.git ~/.oh-my-zsh/plugins/symfony-console
 ```
 
 2. Activate the plugin and specify which `symfony/console` tools you want to activate the plugin for by placing these lines into your `~/.zshrc` configuration file. (these lines **must** appear before `source $ZSH/oh-my-zsh.sh` otherwise, the plugin will not be activated)
 
-```
+```zsh
 # activate the plugin
 plugins=(symfony-console)
 
@@ -26,4 +26,4 @@ You cas use this completion plugin for local as well as global `symfony/console`
 
 ---
 
-> Jergus Lejko <jergus.lejko@gmail.com> 2016
+> Jergus Lejko <jergus.lejko@gmail.com> 2017
