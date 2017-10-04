@@ -2,10 +2,10 @@
 
 ### Instalation
 
-1. Clone the repository into `~/.oh-my-zsh/plugins/symfony-console` directory
+1. Clone the repository into `~/.oh-my-zsh/custom/plugins/symfony-console` directory
 
 ```zsh
-git clone https://github.com/jerguslejko/zsh-symfony-completion.git ~/.oh-my-zsh/plugins/symfony-console
+git clone https://github.com/jerguslejko/zsh-symfony-completion.git ~/.oh-my-zsh/custom/plugins/symfony-console
 ```
 
 2. Activate the plugin and specify which `symfony/console` tools you want to activate the plugin for by placing these lines into your `~/.zshrc` configuration file. (these lines **must** appear before `source $ZSH/oh-my-zsh.sh` otherwise, the plugin will not be activated)
