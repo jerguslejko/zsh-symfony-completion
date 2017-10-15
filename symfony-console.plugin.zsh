@@ -22,4 +22,8 @@ _symfony_console_describe() {
 
 tools=("${(@s/ /)SYMFONY_CONSOLE_TOOLS}")
 
+if [ -z "$SYMFONY_CONSOLE_TOOLS" ]; then
+    tools=("composer" "artisan" "valet" "envoy")
+fi
+
 compdef _symfony_console_describe $tools
