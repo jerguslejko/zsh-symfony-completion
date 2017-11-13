@@ -1,4 +1,5 @@
-# Oh My ZSH Completion plugin for `symfony/console` based tools
+## Oh My ZSH Completion plugin for `symfony/console` based tools
+ 
 
 ### Instalation
 
