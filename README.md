@@ -15,7 +15,7 @@ git clone https://github.com/jerguslejko/zsh-symfony-completion.git ~/.oh-my-zsh
 plugins=(symfony-console)
 ```
 
-3. Optionally, specify which `symfony/console` tools you want to activate auto-completion for. If you do not define this variable, values below will be used as defaults.
+3. Optionally, specify which `symfony/console` tools you want to activate auto-completion for. If you do not define this variable, values below will be used as defaults. Please note, this line **MUST** appear before `source $ZSH/oh-my-zsh.sh`.
 
 ```zsh
 export SYMFONY_CONSOLE_TOOLS="composer artisan valet envoy bin/console"
