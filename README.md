@@ -16,7 +16,7 @@ git clone https://github.com/jerguslejko/zsh-symfony-completion.git ~/.oh-my-zsh
 plugins=(symfony-console)
 
 # optionally provide a space separated list of tools. If you do not define this variable, values below will be used by default
-export SYMFONY_CONSOLE_TOOLS="composer artisan valet envoy"
+export SYMFONY_CONSOLE_TOOLS="composer artisan valet envoy bin/console"
 ```
 
 3. Reload your shell
