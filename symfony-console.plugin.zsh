@@ -9,7 +9,7 @@ _symfony_console_all_commands() {
         return
     fi
 
-    eval "$command" | sed "1,/Available commands/d" | grep "^\s.*\s.*$" | sed 's/:/\\:/g' | perl -pe 's/\x1b.*?[mGKH]//g' | sed -E "s/ *([a-z:\\-]+) *(.*)/\1:\2/"
+    eval "$command --raw" | sed 's/:/\\:/g' | sed 's/ \{2,\}/:/g'
 }
 
 _symfony_console_describe() {
